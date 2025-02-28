@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar wrapper">
+            <!-- Logo -->
+                <div class="logo">
+                    <img src="images/emrg logo.svg" alt="Logo"> 
+                </div> 
+            <!-- Navigation Links -->
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">HOME</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#pricing">PRICING</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+    </header>
+    <main>
+    <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-text-container wrapper">
+              <h1>Powering Your Success</h1>
+              <p>Our team is ready to level up your brand with no limits</p>
+            </div>
+            <div class="hero-image"></div>
+        </section>
+    <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio-container wrapper">
+            <div>
+                <h4>This is the title of the upcoming picture</h4>
+                <p>Here goes a brief description of the work and maybe a link to it</p>
+            </div>
+            <div class="image-container">
+                <div class="main-image portfolio-card">
+                    <img src="/images/Hero image.png" alt="Portfolio Item">
+                    <button class="button-see-more">See More</button>
+                </div>
+                <div class="sub-images">
+                    <div class="sub-image portfolio-card">
+                        <img src="/images/Hero image.png" alt="Portfolio Item">
+                        <button class="button-see-more">See More</button>
+                    </div>
+                    <div class="sub-image portfolio-card">
+                        <img src="/images/Hero image.png" alt="Portfolio Item">
+                        <button class="button-see-more">See More</button>
+                    </div>
+                </div>
+            </div>
+        </section>    
+    <!-- Services Section -->
+        <section id="services" class="services-container wrapper">
+            <h2>All In One Place, We Got You Covered</h2>
+            <div class="service-section">
+                <div class="service-category">
+                    <img src="/images/PenNib.svg" alt="Graphic design">
+                    <h3>Graphic Design and Stationery</h3>
+                    <ul>
+                        <li>Pitch decks</li>
+                        <li>Slide decks</li>
+                        <li>Infographics</li>
+                        <li>Brochures</li>
+                        <li>Packaging</li>
+                        <li>Digital ads</li>
+                        <li>illustration</li>
+                        <li>Signage and printables</li>
+                        <li>Animations</li>
+                        <li>Email signatures</li>
+                        <li>Flyers</li>
+                        <li>Iconography</li>
+                    </ul>
+                </div>
+                <div class="service-category">
+                    <img src="/images/FlowArrow.svg" alt="UI/UX design">
+                    <h3>Brand and UI/UX Design</h3>
+                    <ul>
+                        <li>Logo design</li>
+                        <li>Brand guidelines</li>
+                        <li>Label design</li>
+                        <li>Packaging design</li>
+                        <li>Wireframing and prototyping</li>
+                        <li>App design</li>
+                        <li>Website design</li>
+                        <li>Landing page design</li>
+                        <li>Design systems</li>
+                        <li>Saas</li>
+                    </ul>
+                </div>
+                <div class="service-category">
+                    <img src="/images/LightbulbFilament.svg" alt="Digital marketing">
+                    <h3>Digital Marketing design and strategy</h3>
+                    <ul>
+                        <li>Social media management</li>
+                        <li>Content strategy</li>
+                        <li>PPC Ad creative design</li>
+                        <li>Infographic design</li>
+                        <li>Email template design and build</li>
+                        <li>Motion graphics design</li>
+                        <li>Video production</li>
+                        <li>Presentations and pitch decks</li>
+                        <li>Themed promo creative design</li>
+                        <li>SEO & SEM</li>
+                    </ul>
+                </div>
+                <div class="service-category">
+                    <img src="/images/CodeBlock.svg" alt="web development">
+                    <h3>Web Development and Support</h3>
+                    <ul>
+                        <li>WordPress development</li>
+                        <li>Webflow development</li>
+                        <li>Shopify development</li>
+                        <li>Custom HTML, CSS, JS and PHP tasks</li>
+                        <li>Speed optimisation</li>
+                        <li>WordPress hosting</li>
+                        <li>Marketing & automation set-up</li>
+                        <li>Website maintenance, security and updates</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    <!-- Benefits Section -->
+        <section class="benefits-container wrapper">
+            <h2>What You Get From Us</h2>
+            <div class="benefits-section">
+                <div class="benefit">
+                    <img src="/images/PiggyBank.svg" alt="Fixed Monthly Rate">
+                    <h4>Fixed Monthly Rate</h4>
+                    <p>There are no hidden fees or penalties for cancellation. You can cancel the subscription just by letting us know.</p>
+                </div>
+                <div class="benefit">
+                    <img src="/images/SneakerMove.svg" alt="Fast turnaround & Reliability">
+                    <h4>Fast turnaround & Reliability</h4>
+                    <p>You will receive your first design drafts within 48 hours and you can provide feedback or download them directly.</p>
+                </div>
+                <div class="benefit">
+                    <img src="/images/TrendUp.svg" alt="Flexible & Scalable">
+                    <h4>Flexible & Scalable</h4>
+                    <p>You can make as many requests (& revisions) as you want. All requests will be processed sequentially.</p>
+                </div>
+            </div>
+        </section>
+    <!-- Pricing Section -->
+        <section id="pricing" class="pricing-container wrapper">
+            <h2>No Hassle, Predictable Pricing</h2>
+            <div class="pricing-cards">
+                <div class="pricing-card">
+                    <h5>EMRG monthly</h5>
+                    <p class="price">$2,340 / month</p>
+                    <p class="save">Save 5% /mo</p>
+                    <button class="button-cta" >Get started </button>
+                    <h6 class="plan-includes">
+                        Unlimited Design Requests<br>
+                        Unlimited Revisions<br>
+                        Unlimited Brands<br>
+                        Updates & Progress Reports<br>
+                        Pause or Cancel Anytime
+                    </h6>
+                </div>
+                <div class="pricing-card">
+                    <h5>EMRG quarterly</h5>
+                    <p class="price">$2,160 / month</p>
+                    <p class="save">Save 10% /mo</p>
+                    <button class="button-cta" >Get started </button>
+                    <h6 class="plan-includes">
+                        Unlimited Design Requests<br>
+                        Unlimited Revisions<br>
+                        Unlimited Brands<br>
+                        Updates & Progress Reports<br>
+                        Pause or Cancel Anytime
+                    </h6>
+                </div>
+                <div class="pricing-card">
+                    <h5>EMRG biannual</h5>
+                    <p class="price">$1,980 / month</p>
+                    <p class="save">Save 20% /mo</p>
+                    <button class="button-cta" >Get started </button>
+                    <h6 class="plan-includes">
+                        Unlimited Design Requests<br>
+                        Unlimited Revisions<br>
+                        Unlimited Brands<br>
+                        Dedicated Project Manager<br>
+                        Updates & Progress Reports<br>
+                        Pause or Cancel Anytime
+                    </h6>
+                </div>
+                <div class="pricing-card">
+                    <h5>EMRG yearly</h5>
+                    <p class="price">$1,800 / month</p>
+                    <p class="save">Save 30% /mo</p>
+                    <button class="button-cta" >Get started </button>
+                    <h6 class="plan-includes">
+                        Unlimited Design Requests<br>
+                        Unlimited Revisions<br>
+                        Unlimited Brands<br>
+                        Dedicated Project Manager<br>
+                        Updates & Progress Reports<br>
+                        Pause or Cancel Anytime
+                    </h6>
+                </div>
+            </div>
+            <p class="disclaimer">*As part of our launching period we will be including a free spark session for all plans value in $500</p>
+        </section>
+    <!-- CTA Banner Section -->
+    <footer id="contact">
+        <section class="cta-section wrapper">
+            <div class="footer-contact">
+                <div class="logo">
+                    <img src="images/emrg logo.svg" alt="Logo"> 
+                </div>
+                <h1>Let's talk!</h1>
+                <hr>
+                <p>info@mrgtribe.com</p>
+                <p> Where to find us</p>
+                <p>Van Slingelandtstraat 8d,
+                    1051 VE Caracas</p>
+                <div class="footer-socials">
+                    <a href="#">LinkedIn</a>
+                    <a href="#">Behance</a>
+                    <a href="#">Pinterest</a>
+                </div>
+            </div>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Brian Clark">
+
+                <label for="email">Email address</label>
+                <input type="email" id="email" name="email" placeholder="example@youremail.com">
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Type your message here..."></textarea>
+
+                <button class="button-secondary" type="submit">Send message </button>
+            </form>
+        </section>
+        <div class="wrapper">
+            <p class="footer-credits">2025 - DESIGN AND DEVELOPMENT FOR EMRG TRIBE</p>
+        </div>
+    </footer>
+</body>
+</html>

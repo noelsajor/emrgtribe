@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar wrapper">
+            <!-- Logo -->
+                <div class="logo">
+                    <img src="images/emrg logo.svg" alt="Logo"> 
+                </div> 
+            <!-- Navigation Links -->
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">HOME</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#pricing">PRICING</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+    </header>
+    <main>
+    <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-image"></div>
+        </section>
+    <!-- Portfolio Section -->
+        <section id="portfolio" class="portfolio-container wrapper">
+            <div>
+                <h4>This is the title of the upcoming picture</h4>
+                <p>Here goes a brief description of the work and maybe a link to it</p>
+            </div>
+            <div class="image-container">
+                <div class="main-image portfolio-card">
+                    <img src="/images/Hero image.png" alt="Portfolio Item">
+                    <button class="button-see-more">See More</button>
+                </div>
+                <div class="sub-images">
+                    <div class="sub-image portfolio-card">
+                        <img src="/images/Hero image.png" alt="Portfolio Item">
+                        <button class="button-see-more">See More</button>
+                    </div>
+                    <div class="sub-image portfolio-card">
+                        <img src="/images/Hero image.png" alt="Portfolio Item">
+                        <button class="button-see-more">See More</button>
+                    </div>
+                </div>
+            </div>
+        </section>    
+    <!-- CTA Banner Section -->
+    <footer id="contact">
+        <section class="cta-section wrapper">
+            <div class="footer-contact">
+                <div class="logo">
+                    <img src="images/emrg logo.svg" alt="Logo"> 
+                </div>
+                <h1>Let's talk!</h1>
+                <hr>
+                <p>info@mrgtribe.com</p>
+                <p> Where to find us</p>
+                <p>Van Slingelandtstraat 8d,
+                    1051 VE Caracas</p>
+                <div class="footer-socials">
+                    <a href="#">LinkedIn</a>
+                    <a href="#">Behance</a>
+                    <a href="#">Pinterest</a>
+                </div>
+            </div>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Brian Clark">
+
+                <label for="email">Email address</label>
+                <input type="email" id="email" name="email" placeholder="example@youremail.com">
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Type your message here..."></textarea>
+
+                <button class="button-secondary" type="submit">Send message </button>
+            </form>
+        </section>
+        <div class="wrapper">
+            <p class="footer-credits">2025 - DESIGN AND DEVELOPMENT FOR EMRG TRIBE</p>
+        </div>
+    </footer>
+</body>
+</html>
