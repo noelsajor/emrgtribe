@@ -380,6 +380,8 @@ h6 {
     display: flex;
     align-items: flex-start;
     margin-bottom: 40px;
+    border-bottom: 1px;
+    border-color: ;
 }
 
 .service-category img {
