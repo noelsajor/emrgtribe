@@ -409,14 +409,13 @@ h6 {
     padding: 60px 0;
 }
 .benefits-section {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
-    align-items: start;
+    display: flex;
+    justify-content: center;
 }
 .benefit {
     text-align: left;
     border: 1px solid #E1E4ED;
+    flex-grow: 1;
 }
 .benefit img {
     width: 40px;
