@@ -522,6 +522,7 @@ h6 {
     transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1), 
                 box-shadow 0.6s cubic-bezier(0.25, 1, 0.5, 1);
     cursor: pointer;
+    flex-grow: 1;
 }
 
 .pricing-card h6 {
