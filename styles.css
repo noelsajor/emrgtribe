@@ -457,7 +457,7 @@ h6 {
 }
 .pricing-cards {
     display: flex;
-    gap: 20px;
+    justify-content: center;
     flex-wrap: wrap;
     width: 100%;
 }
@@ -517,8 +517,8 @@ h6 {
 .pricing-card {
     background-color: white;
     border: 1px solid #E1E4ED;
-    border-radius: 8px;
-    padding: 20px;
+    border-radius: 0;
+    padding: 32px 24px;
     transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1), 
                 box-shadow 0.6s cubic-bezier(0.25, 1, 0.5, 1);
     cursor: pointer;
