@@ -416,6 +416,7 @@ h6 {
     text-align: left;
     border: 1px solid #E1E4ED;
     flex-grow: 1;
+    padding: 24px;
 }
 .benefit img {
     width: 40px;
