@@ -406,8 +406,8 @@ h6 {
   @media (max-width: 768px) {}
 
   @media (max-width: 480px) {
-    .portfolio-container h4{
-        font-size: 2rem;
+    .portfolio-container div h4{
+        font-size: 3rem;
     }
 }
 
