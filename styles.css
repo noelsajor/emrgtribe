@@ -217,6 +217,9 @@ h6 {
   }
 
   @media (max-width: 768px) {
+    .hero-text-container{
+        padding-top: 32px;
+    }
     .hero-text-container h1 {
       font-size: 6.5rem;
     }
@@ -231,8 +234,11 @@ h6 {
   }
 
   @media (max-width: 480px) {
+    .hero-text-container{
+        padding-top: 16px;
+    }
     .hero-text-container h1 {
-      font-size: 5rem;
+      font-size: 4.5rem;
     }
 
     .hero-text-container p {
