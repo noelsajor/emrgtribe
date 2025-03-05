@@ -501,6 +501,7 @@ h6 {
 .tag {
     background-color: #F1F3F7;
     padding: 4px 8px;
+    border-radius: 4px;
     text-wrap: wrap;
 }
 
