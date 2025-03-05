@@ -500,7 +500,8 @@ h6 {
 
 .tag {
     background-color: #F1F3F7;
-    padding: 4px 6px;
+    padding: 4px 8px;
+    text-wrap: wrap;
 }
 
 /* Button with Arrow Hover Effect */
