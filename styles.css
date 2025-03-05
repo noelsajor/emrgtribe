@@ -261,6 +261,10 @@ h6 {
     .hero {
         padding-bottom: 60px;
     }
+
+    .h2 {
+        line-height: 1.2;
+    }
 }
 
 .about-image {
