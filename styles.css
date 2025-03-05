@@ -699,6 +699,12 @@ footer hr {
     padding: 5px 0;
     text-align: left;
 }
+
+.footer-socials img {
+    max-width: 16px;
+    height: auto;
+}
+
 .footer-locations, .footer-socials {
     display: flex;
     justify-content: space-between;
