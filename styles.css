@@ -700,6 +700,10 @@ footer hr {
     text-align: left;
 }
 
+.footer-contact h1 {
+    margin-bottom: 0;
+}
+
 .footer-socials img {
     max-width: 32px;
     height: auto;
