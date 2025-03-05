@@ -515,7 +515,7 @@ h6 {
     overflow: hidden;
 }
 .button-cta:hover {
-    background-color: #555a75;
+    background-color: #171717;
 }
 /* Arrow Effect on Hover */
 .button-cta::after {
