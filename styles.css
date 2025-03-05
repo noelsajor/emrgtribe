@@ -257,6 +257,10 @@ h6 {
         gap: 0;
         padding: 0;
     }
+
+    .hero {
+        padding-bottom: 60px;
+    }
 }
 
 .about-image {
