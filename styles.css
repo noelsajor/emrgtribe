@@ -498,6 +498,11 @@ h6 {
     margin: 0px;
 }
 
+.tag {
+    background-color: #F1F3F7;
+    padding: 4px 6px;
+}
+
 /* Button with Arrow Hover Effect */
 .button-cta {
     align-self: flex-start;
