@@ -231,6 +231,10 @@ h6 {
     .hero-image {
       height: 400px;
     }
+
+    .content{
+        gap: 24px;
+    }
   }
 
   @media (max-width: 480px) {
@@ -247,6 +251,10 @@ h6 {
 
     .hero-image {
       height: 300px;
+    }
+
+    .content{
+        gap: 0;
     }
 }
 
