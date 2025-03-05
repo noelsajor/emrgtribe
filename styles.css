@@ -547,7 +547,6 @@ h6 {
 }
 
 .pricing-card h6 {
-    margin-top: 40px;
     font-size: 0.8rem;
     line-height: 1.8rem;
     font-weight: 600;
@@ -563,7 +562,6 @@ h6 {
 .plan-includes {
     color: #555;
     line-height: 1.5;
-    padding-top: 20px;
     border-top: 1px solid #ddd;
 }
 
