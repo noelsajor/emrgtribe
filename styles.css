@@ -297,11 +297,7 @@ h6 {
     align-items: center;
     padding: 50px;
 }
-.content {
-    display: flex;
-    max-width: 100%;
-    gap: 40px;
-}
+
 .bio-section {
     flex: 1;
 }
