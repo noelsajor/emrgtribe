@@ -498,6 +498,10 @@ h6 {
     margin: 0px;
 }
 
+.plan-type {
+    display: flex;
+}
+
 .tag {
     background-color: #F1F3F7;
     padding: 4px 8px;
