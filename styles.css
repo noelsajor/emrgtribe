@@ -354,6 +354,9 @@ h6 {
     height: 200px;
     background-color: #ddd;
     border-radius: 8px;
+    background-image: url("images/Hero image.webp");
+    background-size: cover;
+    background-position: center;
 }
 
 /* Basic Styles for Portfolio Cards */
