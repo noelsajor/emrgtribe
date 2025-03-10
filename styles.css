@@ -519,6 +519,7 @@ h6 {
 
 @media (max-width: 480px) {
     .benefits-container h2 {
+        font-size: 2rem;
         line-height: 1.2;
     }
 }
@@ -656,6 +657,7 @@ h6 {
 
 @media (max-width: 480px) {
     .pricing-container h2 {
+        font-size: 2rem;
         line-height: 1.2;
     }
 }
