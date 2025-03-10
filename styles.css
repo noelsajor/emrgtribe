@@ -341,7 +341,10 @@ h6 {
     width: 100%;
     height: 400px;
     background-color: #ddd;
-    border-radius: 8px;
+    background-image: url(images/Hero image.webp);
+    background-size: cover;
+    background-position: center;
+
 }
 .sub-images {
     display: grid;
