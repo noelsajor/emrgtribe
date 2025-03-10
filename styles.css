@@ -413,7 +413,7 @@ h6 {
 
   @media (max-width: 480px) {
     .portfolio-container div h4{
-        font-size: var(--h2-font-size);
+        font-size: 2rem;
         font-weight:var(--font-weight-black);
         margin:0;
         line-height: 1.2;
@@ -464,6 +464,7 @@ h6 {
 
 @media (max-width: 480px) {
     .services-container h2 {
+        font-size: 2rem;
         line-height: 1.2;
     }
 }
