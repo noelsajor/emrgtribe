@@ -681,7 +681,7 @@ h6 {
 /* Bio members section */
 .content {
     display: flex;
-    gap: 2rem; /* space between image and bio */
+    gap: 2rem; 
     align-items: flex-start; /* align items at the top */
     flex-wrap: wrap; /* allow wrapping on smaller screens */
 }
@@ -689,7 +689,7 @@ h6 {
 .image-placeholder img {
     width: 250px; /* adjust size as needed */
     height: auto;
-    border-radius: 8px; /* optional: rounded corners */
+    border-radius: 8px; 
     object-fit: cover;
 }
 
