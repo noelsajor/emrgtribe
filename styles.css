@@ -164,7 +164,6 @@ h6 {
 /* Hero section*/
 .hero {
   position: relative;
-  height: 100vh;
   overflow: hidden;
   color: white;
 }
