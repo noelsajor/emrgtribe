@@ -679,7 +679,7 @@ h6 {
 
 
 /* Bio members section */
-.content {
+.members-content {
     display: flex;
     gap: 2rem; 
     align-items: flex-start; /* align items at the top */
