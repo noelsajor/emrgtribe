@@ -677,6 +677,8 @@ h6 {
     margin: 0 auto;
 }
 
+
+/* Bio members section */
 .content {
     display: flex;
     gap: 2rem; /* space between image and bio */
