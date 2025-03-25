@@ -350,7 +350,16 @@ h6 {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
-.sub-image {
+.sub-image1 {
+    height: 200px;
+    background-color: #ddd;
+    border-radius: 8px;
+    background-image: url("images/laLechona.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.sub-image2 {
     height: 200px;
     background-color: #ddd;
     border-radius: 8px;
