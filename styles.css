@@ -69,6 +69,10 @@ h6 {
 
 }
 
+.spacer {
+    border: 1px solid #E1E4ED;
+}
+
 
 /* Navbar Styling */
 .navbar {
