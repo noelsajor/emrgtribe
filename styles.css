@@ -905,7 +905,6 @@ footer hr {
         font-size: 3rem;
     }
     .footer-locations, .footer-socials {
-        flex-direction: column;
         align-items: flex-start;
     }
 }
