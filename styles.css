@@ -866,6 +866,7 @@ footer hr {
 .social {
     display: flex;
     justify-content: space-between;
+    flex-direction: row-reverse;
     border-top: 1px solid #555;
     padding-top: 20px;
 }
