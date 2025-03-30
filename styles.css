@@ -723,9 +723,10 @@ h6 {
 /* Bio members section */
 .members-content {
     display: flex;
-    gap: 2rem; 
+    gap: 3rem; 
     align-items: flex-start; /* align items at the top */
     flex-wrap: wrap; /* allow wrapping on smaller screens */
+    margin: 2rem;
 }
 
 .image-placeholder img {
