@@ -731,6 +731,12 @@ h6 {
     }
 }
 
+@media (max-width: 480px) {
+    .cta-section h1 {
+        text-size: 3.5rem;
+    }
+}
+
 /* Bio members section */
 .members-content {
     display: flex;
