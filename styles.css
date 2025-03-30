@@ -489,6 +489,10 @@ h6 {
     font-size: var(--base-font-size);
 }
 
+.service-section service-category p {
+    width: 100%;
+}
+
 /* Responsive Design */
 
 @media (max-width: 1024px) {
