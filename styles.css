@@ -866,8 +866,6 @@ footer hr {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-top: 1px solid #555;
-    padding-top: 20px;
 }
 
 .footer-socials img {
@@ -879,7 +877,6 @@ footer hr {
     display: flex;
     flex-direction: row-reverse;
     gap: 12px;
-    margin-bottom: 40px;
 }
 .footer-location p, .footer-socials a {
     font-size: 1rem;
