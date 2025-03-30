@@ -721,6 +721,15 @@ h6 {
     margin: 0 auto;
 }
 
+@media (max-width: 768px) {
+    .cta-section: ;
+}
+
+@media (max-width: 480px) {
+    .cta-section {
+        padding: 24px;
+    }
+}
 
 /* Bio members section */
 .members-content {
