@@ -865,10 +865,11 @@ footer hr {
 
 .social {
     display: flex;
+    justify-content: space-between;
 }
 
 .footer-socials img {
-    max-width: 12px;
+    max-width: 32px;
     height: auto;
 }
 
