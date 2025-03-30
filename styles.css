@@ -489,7 +489,7 @@ h6 {
     font-size: var(--base-font-size);
 }
 
-.service-section service-category div {
+.service-section service-category p {
     width: 100%;
 }
 
