@@ -867,6 +867,7 @@ footer hr {
     display: flex;
     justify-content: space-between;
     border-top: 1px solid #555;
+    padding-top: 20px;
 }
 
 .footer-socials img {
