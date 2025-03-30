@@ -718,9 +718,7 @@ h6 {
     .cta-section {
         padding: 24px;
     }
-}
-
-@media (max-width: 480px) {
+    
     .footer-contact h4 {
         text-size: 3.5rem;
     }
