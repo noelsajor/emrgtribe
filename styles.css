@@ -866,7 +866,6 @@ footer hr {
 .social {
     display: flex;
     justify-content: space-between;
-    flex-direction: row-reverse;
     border-top: 1px solid #555;
     padding-top: 20px;
 }
@@ -878,6 +877,7 @@ footer hr {
 
 .footer-locations, .footer-socials {
     display: flex;
+    flex-direction: row-reverse;
     gap: 12px;
     margin-bottom: 40px;
 }
@@ -889,7 +889,7 @@ footer hr {
 }
 .footer-socials a:hover {
     text-decoration: underline;
-    color: #ffffff;
+    color: #262626;
 }
 
 .footer-credits {
