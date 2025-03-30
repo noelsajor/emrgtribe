@@ -491,6 +491,7 @@ h6 {
 
 .service-section service-category p {
     width: 100%;
+    background: #000000;
 }
 
 /* Responsive Design */
