@@ -1,1 +1,74 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar wrapper">
+            <!-- Logo -->
+                <div class="logo">
+                    <a href="index.html"><img src="images/emrg logo.svg" alt="Logo"></a>
+                </div>
+            <!-- Navigation Links -->
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+    </header>
+    <main>
+    <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-text-container wrapper content">
+              <h1>Your All-In-One Creative Team Subscription</h1>
+              <p>Empowering Growing Brands with Full-Service Creative Expertise at an Affordable fixed fee.</p>
+            </div>
+            <div class="hero-video">
+                <video 
+                  poster="https://www.datocms-assets.com/22695/1735563933-main-reel-1920.jpg" 
+                  src="https://www.datocms-assets.com/22695/1715091338-30fps.mp4" 
+                  playsinline 
+                  preload="auto" 
+                  muted 
+                  loop 
+                  autoplay>
+                </video>
+            </div>
+        </section>
+    <footer id="contact">
+        <section class="cta-section wrapper">
+            <div class="footer-contact">
+                <h4>Let's talk about your project!</h4>
+            </div>
+            <div class="social">
+                <div class="logo">
+                    <img src="images/emrg logo.svg" alt="Logo"> 
+                </div>
+                <div class="footer-socials">
+                    <a href="#">Pinterest</a>
+                    <a href="https://www.linkedin.com/company/emrgtribe/?viewAsMember=true">LinkedIn</a>
+                    <a href="">Behance</a>
+                </div>
+            </div>
+        </section>
+        <div class="wrapper">
+            <p class="footer-credits">2025 - DESIGN AND DEVELOPMENT FOR EMRG TRIBE</p>
+        </div>
+    </footer>
+</body>
+</html>
