@@ -715,8 +715,6 @@ h6 {
 }
 
 .cta-section {
-    display: flex;
-    justify-content: space-between;
     align-items: flex-start; /* Align content to the top */
     padding: 80px;
     max-width: 1200px;
