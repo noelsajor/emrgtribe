@@ -697,7 +697,6 @@ h6 {
     .pricing-cards {
         flex-direction: column;
         gap: 20px;
-        align-items: flex-start;
     }
 }
 
