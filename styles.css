@@ -513,6 +513,9 @@ h6 {
         font-size: 2rem;
         line-height: 1.2;
     }
+    .service-category img {
+    padding: 0;
+}
 }
 
 /* Benefits Section */
