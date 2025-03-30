@@ -192,12 +192,6 @@ h6 {
   object-position: center;
 }
 
-/*
-.hero {
-    width: 100%;
-  }
-*/
-
 .parallax {
     background-image: url("images/Hero Image from emrgtribe.webp");
     height: 100vh;
@@ -206,17 +200,6 @@ h6 {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-/*
-.content {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    padding: 20px;
-}
-*/
 
   .hero-text-container {
     display: flex;
@@ -360,6 +343,12 @@ h6 {
     width: 50%;
     height: 400px;
     background-color: #555;
+}
+
+@media (max-width: 480px) {
+      .image-placeholder {
+        width: 100%;
+      }
 }
 
 
