@@ -732,7 +732,7 @@ h6 {
 }
 
 @media (max-width: 480px) {
-    .cta-section h4 {
+    .cta-section footer-contact h4 {
         text-size: 3.5rem;
     }
 }
