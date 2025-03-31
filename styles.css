@@ -718,10 +718,6 @@ h6 {
     .cta-section {
         padding: 24px;
     }
-    
-    .footer-contact h4 {
-        font-size: 3.5rem;
-    }
 }
 
 /* Bio members section */
@@ -865,6 +861,15 @@ footer hr {
     color: #F1F3F7;
     margin-top: 0px;
 }
+
+@media (max-width: 480px) {
+    
+    .footer-contact h4 {
+        font-size: 3.5rem;
+    }
+}
+
+
 
 .social {
     display: flex;
