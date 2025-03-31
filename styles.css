@@ -930,7 +930,7 @@ footer hr {
 @media (max-width: 480px) {
     .footer-credits {
         font-size: 1rem;
-        padding: 16px 24px;
+        padding: 16px 32px;
     }
     .social {
         align-items: flex-start;
