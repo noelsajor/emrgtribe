@@ -927,3 +927,11 @@ footer hr {
         align-items: flex-start;
     }
 }
+@media (max-width: 480px) {
+    .footer-credits {
+        font-size: 0.6rem;
+    }
+    .social {
+        align-items: flex-start;
+    }
+}
