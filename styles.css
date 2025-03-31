@@ -870,11 +870,20 @@ footer hr {
 }
 
 
-
 .social {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+@media (max-width: 480px) {
+    .social {
+        flex-direction: column;
+    }
+    
+    .footer-contact h4 {
+        font-size: 3.5rem;
+    }
 }
 
 .footer-socials img {
